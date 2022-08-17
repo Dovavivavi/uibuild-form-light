@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7e4da;
+}
+
+#section {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback {
+  font-size: 3rem;
+  color: #467745;
+  font-family: 'EB Garamond', serif;
+}
+
+.input-field {
+  max-width: 480px;
+  max-height: 64px;
+  font-size: 16px;
+  color: #467745;
+}
+
+.text-area {
+  margin-top: 35px;
+  font-size: 16px;
+  max-width: 480px;
+  max-height: 120px;
+  color: #467745;
+}
+
+.license {
+  margin-top: 35px;
+  font-size: 16px;
+  color: #467745;
+}
+
+.save-btn {
+  margin-top: 35px;
+  font-size: 21px;
+  max-width: 280px;
+  max-height: 80px;
+  background-color: #467745;
+  color: #f7e4da;
+  letter-spacing: 0.2rem;
+  border: none;
+  border-radius: 25px;
+  font-family: 'EB Garamond', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
